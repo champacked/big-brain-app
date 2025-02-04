@@ -7,7 +7,6 @@ import Heading from "./ui/Heading";
 import { useMediaQuery } from "./hooks/useMediaQuery";
 import ContentBlur from "./ui/ContentBlur";
 import SearchBar from "./SearchBar";
-import { Axis } from "framer-motion";
 
 function SharedContent() {
   const { sharelink } = useParams();
